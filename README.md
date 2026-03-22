@@ -16,7 +16,7 @@ npm install @thanh-libs/layout
 | `react-dom` | ≥ 18 |
 | `@emotion/react` | ≥ 11 |
 | `@emotion/styled` | ≥ 11 |
-| `@thanh-libs/theme` | ≥ 0.x |
+| `@thanh-libs/theme` | ≥ 0.0.3 |
 
 ## Components
 
