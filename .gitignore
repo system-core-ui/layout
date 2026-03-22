@@ -13,5 +13,6 @@ storybook-static
 
 # Misc
 *.tsbuildinfo
+out-tsc
 vite.config.*.timestamp*
 vitest.config.*.timestamp*
