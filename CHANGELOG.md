@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2-alpha.2](https://github.com/system-core-ui/layout/compare/v0.0.2-alpha.1...v0.0.2-alpha.2) (2026-03-22)
+
+
+### Bug Fixes
+
+* correct @thanh-libs/theme version to match published 0.0.3 ([0ddcdd0](https://github.com/system-core-ui/layout/commit/0ddcdd09bea171521062d0bd687efbe7b93bbcec))
+
 ### [0.0.2-alpha.1](https://github.com/system-core-ui/layout/compare/v0.0.2-alpha.0...v0.0.2-alpha.1) (2026-03-22)
 
 
