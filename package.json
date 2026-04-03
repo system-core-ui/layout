@@ -34,7 +34,8 @@
     "react-dom": ">=18",
     "@emotion/react": ">=11",
     "@emotion/styled": ">=11",
-    "@thanh-libs/theme": "*"
+    "@thanh-libs/theme": "*",
+    "@thanh-libs/utils": "*"
   },
   "devDependencies": {
     "@emotion/react": "^11.14.0",

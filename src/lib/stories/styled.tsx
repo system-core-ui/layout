@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { pxToRem } from '@thanh-libs/utils';
 
 export const StoryContainer = styled.div(({ theme }) => ({
   padding: theme.spacing?.extraLarge ?? '2rem',
@@ -22,7 +23,7 @@ export const DemoBox = styled.div<{ ownerColor?: string }>(
     padding: theme.spacing?.medium ?? '0.75rem',
     borderRadius: theme.shape?.borderRadiusTiny ?? 4,
     background: ownerColor ?? theme.palette?.primary?.extraLight ?? '#e3f2fd',
-    border: `1px solid ${theme.palette?.divider ?? '#e0e0e0'}`,
+    border: `${pxToRem(1)} solid ${theme.palette?.divider ?? '#e0e0e0'}`,
     textAlign: 'center',
     fontSize: '0.8rem',
     fontWeight: 500,
@@ -50,7 +51,7 @@ export const DemoSidebar = styled.aside(({ theme }) => ({
 export const DemoContent = styled.main(({ theme }) => ({
   padding: theme.spacing?.large ?? '1rem',
   borderRadius: theme.shape?.borderRadiusTiny ?? 4,
-  border: `1px solid ${theme.palette?.divider ?? '#e0e0e0'}`,
+  border: `${pxToRem(1)} solid ${theme.palette?.divider ?? '#e0e0e0'}`,
   minHeight: 200,
 }));
 
